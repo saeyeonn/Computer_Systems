@@ -1,0 +1,1 @@
+main(i){for(;i<1e4;printf("%d,",i++));}
