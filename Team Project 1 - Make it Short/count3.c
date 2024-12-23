@@ -1,1 +1,0 @@
-main(i){printf("%d,",i++);i<1e4&&main(i);}

@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     login
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printflag, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x1C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _printflag, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0x1C }
+  - { offsetInCU: 0x62, offset: 0x62, size: 0x8, addend: 0x0, symName: _func, symObjAddr: 0x1C, symBinAddr: 0x100003E08, symSize: 0x8C }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA8, symBinAddr: 0x100003E94, symSize: 0x78 }
+...
